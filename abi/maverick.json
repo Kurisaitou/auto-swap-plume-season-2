@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      { "internalType": "address", "name": "recipient", "type": "address" },
+      { "internalType": "address", "name": "pool", "type": "address" },
+      { "internalType": "bool", "name": "tokenAIn", "type": "bool" },
+      { "internalType": "uint256", "name": "amountIn", "type": "uint256" },
+      { "internalType": "uint256", "name": "amountOutMinimum", "type": "uint256" }
+    ],
+    "name": "exactInputSingle",
+    "outputs": [{ "internalType": "uint256", "name": "amountOut", "type": "uint256" }],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]
