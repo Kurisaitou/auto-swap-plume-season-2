@@ -1,0 +1,30 @@
+{
+  "name": "auto-swap-plume-season-2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automated swap bot for PLUME, useful for airdrop farming.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plume",
+    "airdrop",
+    "bot",
+    "swap",
+    "web3",
+    "pUSD",
+    "crypto",
+    "blockchain",
+    "automation"
+  ],
+  "author": "Kurisaitou",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.15.0",
+    "web3": "^4.16.0"
+  }
+}
